@@ -1,0 +1,35 @@
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+.card h3{
+    font-size: 18px;
+    color: red;
+}
+.show-poke{
+    margin-bottom: 30px;
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex ITA Júnior</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button class="show-poke inicio" onClick="mostrapokedex()" >Mostrar Pokedex</button>
+    <p></p>
+    <button class="stop" onclick="pauseTimer()">Pausar por três segundos</button>
+    <button class="stop" onclick="stopTimer()">Parar</button>
+
+    <h1 class="loading hidden">Carregando...</h1>
+    <div class="pokedex normal hidden">
+        <!--<div class="card">
+            <img src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"/>
+            
+            <h2>Nome do Pokemon</h2>
+        </div>-->
+    </div>
+
+    <h2 class="fav-text hidden">Seus Pokemons Favoritos</h2>
+
+    <div class="pokedex favorites hidden"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
