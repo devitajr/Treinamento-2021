@@ -1,0 +1,46 @@
+.novaOperacao {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: row;
+	width: 400px;
+	justify-content: space-between;
+}
+
+input {
+	font-size: 0.9rem;
+	outline: none;
+	border: none;
+	color: rgb(0, 0, 0, 0.7);
+	height: 1.5rem;
+	padding: 0.3rem;
+	border-radius: 5px;
+}
+
+input::placeholder {
+	color: rgb(0, 0, 0, 0.5);
+}
+
+.btn {
+	margin: 1rem;
+	cursor: pointer padding 0.5rem;
+
+	text-align: center;
+	background: white;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	transition: all 0.5s ease;
+	border: none;
+
+	user-select: none;
+}
+
+.btn:hover {
+	letter-spacing: 0.7px;
+}
