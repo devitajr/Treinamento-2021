@@ -1,0 +1,36 @@
+.container {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contador_container {
+	width: 600px;
+
+	background: white;
+	border-radius: 10px;
+
+	padding: 2rem;
+	/* 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+}
+
+.contador {
+	font-size: 5rem;
+	text-align: center;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 2rem 0;
+
+	flex-wrap: wrap;
+}

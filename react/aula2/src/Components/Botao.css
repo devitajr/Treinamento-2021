@@ -1,0 +1,32 @@
+.botao {
+	border: solid 2px black;
+	border-radius: 5px;
+
+	user-select: none;
+
+	height: 5rem;
+	width: 5rem;
+	margin: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.botao:hover .numero {
+	cursor: pointer;
+	font-size: 1.8rem;
+}
+
+.somar {
+	background: rgb(100, 218, 100);
+}
+
+.subtrair {
+	background: rgb(238, 118, 118);
+}
+
+.numero {
+	font-size: 1.5rem;
+	transition: all 0.2s ease;
+}
